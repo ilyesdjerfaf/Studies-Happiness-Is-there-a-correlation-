@@ -1,41 +1,22 @@
-**Université Paris Saclay**
----
+# **Studies, Happiness! Is there a correlation?**
 
-**Studies, Happiness, is there a relationship ?**
----
+## **Description:**
 
-A project done by :
+Ever wondered if a nation's educational prowess could influence its collective happiness? Our repository dives into this intriguing question, utilizing three distinct datasets sourced from Kaggle:
 
-    Ilyes DJERFAF : Data Scientist @ SAFRAN
+1. [Students Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/)
+2. [PISA Performance Scores by Country](https://www.kaggle.com/datasets/thedevastator/pisa-performance-scores-by-country)
+3. [World Happiness Report](https://www.kaggle.com/datasets/unsdsn/world-happiness)
 
-    Tarek ATBI : Data Scientist @ IBM
+These diverse datasets paved the way for a comprehensive exploration. Leveraging a Python-based ETL (Extract, Transform, Load) pipeline, we seamlessly engineered the data for analysis. Our approach was hands-on; no third-party ETL tools were employed—just the raw power of Python scripting.
 
----
+It's worth noting that this entire project unfolded in a mere day and a half. While the time constraint restricted cloud automation for data loading, we ensured a meticulous process on our local machines.
 
-# Dataset
+Post-ETL, we harnessed the visualization capabilities of Tableau Public, creating compelling visuals to decipher the relationship between education and happiness levels. The visuals not only answer our primary question but also offer a nuanced understanding of the complex interplay.
 
-Our study was based on three datasets : *[Students Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/)*, *[PISA Performance Scores by Country](https://www.kaggle.com/datasets/thedevastator/pisa-performance-scores-by-country)* and *[World Happiness Report](https://www.kaggle.com/datasets/unsdsn/world-happiness)*
+Notably, we delved into American students' performance in exams, scrutinizing the influence of their parents' education—an additional layer of insight into the broader narrative.
 
-## Data Source
+## **Contact Us:** Feel free to reach out with suggestions or inquiries
 
-We got our data from **Kaggle**, click [here](https://www.kaggle.com/) for more informations
-
-# Pipeline de type ETL 
-
-## Extract 
-
-Dans cette partie on extrait les données à partir du Kaggle, exactement on fait l'extraction des 3 differents dataset
-
-## Transform 
-
-Dans cette partie, on va appliquer différentes transformation pour les données, le but c'est de garder les colonnes pertinantes, créer des colonnes si nécessaire, et faire des jointure
-
-## Load
-
-Finalement, on enregistre les datasets transformés en local, de préférence dans le cloud, mais le temps presse.
-
----
-
-# Visualisation 
-
-En utilisant **Tableau Public**, we want to visualize our data, to try to see is there any 
+* **Ilyes DJERFAF:** [idjerfaf@gmail.com](mailto:idjerfaf@gmail.com)
+* **Tarek ATBI:** [tarekatbi@gmail.com](mailto:tarekatbi@gmail.com)
